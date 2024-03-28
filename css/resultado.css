@@ -1,0 +1,46 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.divTitulo{
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 5px solid;
+    background-color: #FBD603;
+}
+.divContainerSolucao{
+    display: grid;
+    grid-template-columns: 8cap 200px;
+    grid-auto-rows: 80px;
+    background-color: rgb(233, 147, 19);
+    border: 1px solid #f3f1f0;
+    margin: 20px;
+}
+
+.item{
+    border: 1px solid #00f4bf;
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px 20px;
+}
+
+.tabTitulo{
+    text-align: center;
+    color: #f7f6f6;
+    background-color: #949494;
+}
+
+#voto{
+    width: 100px;
+}
+#btnVotar{
+    width: 100px;
+}

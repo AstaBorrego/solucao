@@ -1,0 +1,107 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+
+#titPrin{
+    text-align: center;
+    background:rgb(38, 14, 220);
+    font-size: 50px;
+    color: #e7f4f2;
+}
+#desafio img{
+    width: 400px;
+}
+
+#desafio{
+        background-color: rgb(0,255,0);
+        margin: 20px;
+        text-align: center;
+        padding-top: 5px;;
+      
+}
+/*formulário*/
+#container{ 
+   align-items: center;
+   padding: 10px 200px;
+   background-color: rgb(10, 10, 10);   
+}
+
+#titForm{
+    border-bottom: 4px solid rgb(223, 247, 9);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e7f4f2;
+    margin-bottom: 10px;
+    background-color: #1f1e1e;
+  
+}
+
+#squad{
+    text-align: center;
+    font-size: 18px;
+    color: #f8f1f1;
+    background-color: rgb(11, 11, 11);
+    margin-bottom: 30px;
+   
+}
+#solucao{
+     margin-bottom: 30px;
+     text-align: center;
+}
+/*labels*/
+#lblSolucao, #lblSquad{
+    color: #ffff;
+    font-size:20px ;
+  
+}
+
+/*input textSquad*/
+#txtSquad{
+border-color: #f48610;
+border-style: solid;
+border-width: 5px;
+margin-top: 10px;
+width: 350px;
+height: 50px;
+
+}
+
+/*TextArea*/
+
+#txtSolucao{
+    width: 700px;
+    height: 150px;
+    font-size: 18px;
+    /*Desabilitando o dimensionamento do textArea*/
+    resize: none;
+}
+
+/*Div doa botões*/
+.lblBotao{
+    text-align:center ;
+}
+
+/*Formatando botão*/
+.botao{
+   text-align: center;
+   font-size: 30px;
+   color: #121111;
+   background-color: #f0e10a;
+   width: 250px;
+   height: 60px;
+   margin-bottom: 10px;
+}
+
+.botao:hover{
+    background-color: rgb(255 0 0 / 100%);
+}
+
+.botao :active {
+    box-shadow:
+      inset -2px -2px 3px rgb(255 255 255 / 60%),
+      inset 2px 2px 3px rgb(0 0 0 / 60%);
+  }
